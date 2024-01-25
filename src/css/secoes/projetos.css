@@ -1,0 +1,49 @@
+/* PROJETOS */
+.projetos .container-projetos {
+   
+    text-align: center;    
+    display: flex;
+    justify-content: center;    
+    flex-direction: row;
+    flex-wrap: wrap;      
+}
+
+.projetos .container-projetos .projeto{
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.projetos .container-projetos .projeto:hover{
+    color: var(--cor-primaria);
+}
+
+.projetos .container-projetos .projeto:hover a{
+    color:  var( --cor-secundaria);
+}
+
+
+@media(max-width: 1280px) { 
+    .projetos .container-projetos {
+        padding: 0 var(--mobile-padding);
+    }
+}
+
+.projetos .container-projetos .projeto {
+   
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 400px;
+}
+
+
+
+.projetos .container-projetos .projeto img {
+    max-width: 100%;
+    max-height: 200px;
+    
+    
+}
+

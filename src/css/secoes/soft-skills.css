@@ -1,0 +1,35 @@
+.container .soft-skills .logo{
+  background-color:  white;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.soft-skills .container .soft-skills{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center; 
+  
+}
+
+.soft-skills .container .informacoes {
+  /* background-color: yellow; */
+  margin: 10px;
+  max-width: 170px;
+  /* gap: 20px; */
+  
+}
+
+.soft-skills .container .informacoes h3 {
+  margin-top: 10px;
+  font-size: 1.8rem;
+    font-family: var(--fonte-secundaria);
+    transition: all .3s ease;
+  
+
+}
+
+.soft-skills .container .informacoes:hover h3 {
+  color: var(--cor-primaria);
+
+}
