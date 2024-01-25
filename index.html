@@ -1,422 +1,564 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alexandre de Oliveira alves - Desenvolvedor Junior Frontend</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alexandre de Oliveira alves - Desenvolvedor Junior Frontend</title>
+    <link rel="stylesheet" href="src/css/font-awesome.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
 
-  <link rel="stylesheet" href="src/css/font-awesome.css" />
-  <link rel="stylesheet" href="src/css/reset.css" />
-  
-  <!-- Global -->
-  <link rel="stylesheet" href="src/css/globais.css" />
-  <link rel="stylesheet" href="src/css/variaveis.css" />
-  <link rel="stylesheet" href="src/css/secoes/header.css" />
-  <link rel="stylesheet" href="src/css/secoes/home.css" />
-  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
-  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
-  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
-  <link rel="stylesheet" href="src/css/secoes/footer.css" />
-  <link rel="stylesheet" href="./src/css/secoes/soft-skills.css">
+    <!-- Global -->
+    <link rel="stylesheet" href="src/css/globais.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
+    <link rel="stylesheet" href="src/css/secoes/header.css" />
+    <link rel="stylesheet" href="src/css/secoes/home.css" />
+    <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+    <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="src/css/secoes/footer.css" />
+    <link rel="stylesheet" href="./src/css/secoes/soft-skills.css" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+  </head>
 
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="row justify-content-between alinhar-itens-no-centro">
-        <a href="#">
-          <h1 class="logo">AA</h1>
-        </a>
-        <nav>
-          <input id="menu-hamburguer" type="checkbox" />
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between alinhar-itens-no-centro">
+          <a href="#">
+            <h1 class="logo">AA</h1>
+          </a>
+          <nav>
+            <input id="menu-hamburguer" type="checkbox" />
 
-          <label for="menu-hamburguer">
-            <div class="menu">
-              <span class="hamburguer"></span>
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+            <ul>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#soft-skills">soft skills</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Meus projetos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="home">
+      <div class="container">
+        <div class="row full-screen alinhar-itens-no-centro">
+          <div class="texto-home">
+            <p>Olá 🖖,</p>
+            <h1>Sou o Alexandre Alves</h1>
+            <h2>Desenvolvedor Frontend</h2>
+
+            <div class="redes-sociais">
+              <a
+                href="https://www.linkedin.com/in/alexandre-alves-6657b1b3/"
+                target="_blank"
+                class="outer-shadow"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="outer-shadow"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a
+                href="https://github.com/alexandre020285"
+                target="_blank"
+                class="outer-shadow"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="#" class="outer-shadow"
+                ><i class="fab fa-instagram"></i
+              ></a>
             </div>
-          </label>
-          <ul>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#soft-skills">soft skills</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Meus projetos</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <section class="home">
-    <div class="container">
-      <div class="row full-screen alinhar-itens-no-centro">
-        <div class="texto-home">
-          <p>Olá 🖖,</p>
-          <h1>Sou o Alexandre Alves</h1>
-          <h2>Desenvolvedor Frontend</h2>
-
-          <div class="redes-sociais">
-            <a href="https://www.linkedin.com/in/alexandre-alves-6657b1b3/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://github.com/alexandre020285" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
           </div>
-        </div>
 
-        <div class="img-home">
-          <div class="img-box inner-shadow">
-            <img class="outer-shadow" src="./src/imagens/minha-foto-png.png" alt="foto do Alexandre" />
+          <div class="img-home">
+            <div class="img-box inner-shadow">
+              <img
+                class="outer-shadow"
+                src="./src/imagens/minha-foto-png.png"
+                alt="foto do Alexandre"
+              />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="sobre-mim section" id="sobre-mim">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Sobre mim</h2>
+    </section>
+    <section class="sobre-mim section" id="sobre-mim">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Sobre mim</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="imagem-sobre-mim">
+            <div class="img-box inner-shadow">
+              <img
+                src="./src/imagens/minha-foto-png.png"
+                alt="foto sobre mim"
+                class="outer-shadow"
+              />
+            </div>
+          </div>
+          <div class="informacoes-sobre-mim">
+            <p>
+              <strong
+                >Olá! Me chamo Alexandre Alves e sou um desenvolvedor frontend
+                em formação!</strong
+              >
+            </p>
+
+            <p>
+              Sou um desenvolvedor front-end, Tenho experiência em HTML, CSS e
+              JavaScript, e estou sempre buscando aprender novas tecnologias e
+              técnicas para aprimorar minhas habilidades.
+            </p>
+
+            <p>
+              Sou proativo, colaborativo e comprometido em entregar projetos de
+              alta qualidade dentro do prazo. Estou constantemente atualizando
+              meu conhecimento sobre as melhores práticas e tendências do
+              mercado, e estou sempre aberto a novos desafios e oportunidades de
+              crescimento profissional.
+            </p>
+
+            <div class="botoes">
+              <a
+                target="_blank"
+                href="./src/imagens/alexandre de oliveira alves..pdf"
+                class="botao outer-shadow"
+                >Veja meu CV</a
+              >
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="imagem-sobre-mim">
-          <div class="img-box inner-shadow">
-            <img src="./src/imagens/minha-foto-png.png" alt="foto sobre mim" class="outer-shadow" />
+    </section>
+
+    <section class="soft-skills section" id="soft-skills">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Soft skills</h2>
           </div>
         </div>
-        <div class="informacoes-sobre-mim">
-          <p>
-            <strong>Olá! Me chamo Alexandre Alves e sou um desenvolvedor frontend em
-              formação!</strong>
-          </p>
 
-          <p>
-            Sou um desenvolvedor front-end apaixonado por criar experiências de usuário incríveis. Tenho experiência em HTML, CSS e JavaScript, e estou sempre buscando aprender novas tecnologias e técnicas para aprimorar minhas habilidades. 
-          </p>
+        <div class="container soft-skills">
+          <div class="informacoes Liderança">
+            <div class="logo">
+              <img
+                src="./src/imagens/soft-skills/liderança.png"
+                alt="Liderança"
+              />
+            </div>
+            <h3>Liderança</h3>
+          </div>
 
-          <p>
-        Sou proativo, colaborativo e comprometido em entregar projetos de alta qualidade dentro do prazo. Estou constantemente atualizando meu conhecimento sobre as melhores práticas e tendências do mercado, e estou sempre aberto a novos desafios e oportunidades de crescimento profissional.
-          </p>
+          <div class="informacoes Trabalho-em-equipe">
+            <div class="logo">
+              <img
+                src="./src/imagens/soft-skills/equipe.png"
+                alt="Trabalho-em-equipe"
+              />
+            </div>
+            <h3>Trabalho em equipe</h3>
+          </div>
 
-          <div class="botoes">
-            <a target="_blank" href="./src/imagens/alexandre de oliveira alves..pdf"  class="botao outer-shadow">Veja meu CV</a>
+          <div class="informacoes comunicacao">
+            <div class="logo">
+              <img
+                src="./src/imagens/soft-skills/comunicação.png"
+                alt="comunicação"
+              />
+            </div>
+            <h3>Comunicação</h3>
+          </div>
+
+          <div class="informacoes Empatia">
+            <div class="logo">
+              <img src="./src/imagens/soft-skills/empatia.png" alt="empatia" />
+            </div>
+            <h3>Empatia</h3>
+          </div>
+
+          <div class="informacoes Inteligência-emocional">
+            <div class="logo">
+              <img
+                src="./src/imagens/soft-skills/emocional.png"
+                alt="Inteligência emocional"
+              />
+            </div>
+            <h3>Inteligência emocional</h3>
+          </div>
+
+          <div class="informacoes Ética">
+            <div class="logo">
+              <img src="./src/imagens/soft-skills/etica.png" alt="ética" />
+            </div>
+            <h3>Ética</h3>
+          </div>
+
+          <div class="informacoes Criatividade">
+            <div class="logo">
+              <img
+                src="./src/imagens/soft-skills/criatividade.png"
+                alt="Criatividade"
+              />
+            </div>
+            <h3>Criatividade</h3>
+          </div>
+
+          <div class="informacoes Pensamento-critico">
+            <div class="logo">
+              <img
+                src="./src/imagens/soft-skills/analise.png"
+                alt="Pensamento-critico"
+              />
+            </div>
+            <h3>Pensamento crítico</h3>
+          </div>
+
+          <div class="informacoes Flexibilidade">
+            <div class="logo">
+              <img
+                src="./src/imagens/soft-skills/flexibilidade.png"
+                alt="Flexibilidade"
+              />
+            </div>
+            <h3>Flexibilidade</h3>
+          </div>
+
+          <div class="informacoes Orientação-para-resultados">
+            <div class="logo">
+              <img
+                src="./src/imagens/soft-skills/resultados.png"
+                alt="Orientação-para-resultados"
+              />
+            </div>
+            <h3>Orientação para resultados</h3>
+          </div>
+
+          <div class="informacoes Trabalhar-sob-pressão">
+            <div class="logo">
+              <img
+                src="./src/imagens/soft-skills/comunicação.png"
+                alt="Trabalhar-sob-pressão"
+              />
+            </div>
+            <h3>Trabalhar sob pressão</h3>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="soft-skills section" id="soft-skills">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Soft skills</h2>
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Habilidades</h2>
+          </div>
+        </div>
+
+        <div class="container-habilidades">
+          <div class="informacoes javascript">
+            <div class="logo">
+              <i class="devicon devicon-javascript-plain" id="javascript"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>
+              Aprendi a criar aplicações web dinâmicas e interativas utilizando
+              JavaScript, além de manipular e utilizar bibliotecas e frameworks
+              para otimizar o desenvolvimento de projetos
+            </p>
+          </div>
+
+          <div class="informacoes html">
+            <div class="logo">
+              <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>
+              Aprendi a utilizar HTML5 para criar páginas web dinâmicas e
+              responsivas, melhorando a experiência do usuário e garantindo a
+              compatibilidade com diferentes dispositivos e navegadores.!
+            </p>
+          </div>
+
+          <div class="informacoes css">
+            <div class="logo">
+              <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>
+              "Aprendi a utilizar o CSS para criar layouts responsivos e
+              aprimorar a aparência e usabilidade de páginas da web, utilizando
+              técnicas avançadas de estilização e animação."
+            </p>
+          </div>
+
+          <div class="informacoes github">
+            <div class="logo">
+              <i class="devicon devicon-github-original" id="github"></i>
+            </div>
+            <h3>GitHub</h3>
+            <p>
+              Aprendi a colaborar de forma eficiente em projetos de
+              desenvolvimento de software, gerenciar versões de código, resolver
+              e trabalhar em equipe de forma remota, tudo isso através do uso do
+              GitHub.!
+            </p>
+          </div>
+
+          <div class="informacoes git">
+            <div class="logo">
+              <i class="devicon devicon-git-plain" id="git"></i>
+            </div>
+            <h3>Git</h3>
+            <p>
+              Adquiri habilidades em criar e gerenciar repositórios, realizar
+              commits, branches, Também aprendi a utilizar plataformas de
+              hospedagem de repositórios como GitHub.!
+            </p>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="container soft-skills">
-
-        <div class="informacoes Liderança">
-          <div class="logo">
-            <img src="./src/imagens/soft-skills/liderança.png" alt="Liderança">
+    <section class="projetos section" id="projetos">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Meus projetos</h2>
           </div>
-          <h3>Liderança</h3>
         </div>
 
-        <div class="informacoes Trabalho-em-equipe">
-          <div class="logo">
-            <img src="./src/imagens/soft-skills/equipe.png" alt="Trabalho-em-equipe">
-          </div>
-          <h3>Trabalho em equipe</h3>
-        </div>
-
-        <div class="informacoes comunicacao">
-          <div class="logo">
-            <img src="./src/imagens/soft-skills/comunicação.png" alt="comunicação">
-          </div>
-          <h3>Comunicação</h3>
-        </div>
-
-        <div class="informacoes Empatia">
-          <div class="logo">
-            <img src="./src/imagens/soft-skills/empatia.png" alt="empatia">
-          </div>
-          <h3>Empatia</h3>
-         
-        </div>
-
-        <div class="informacoes Inteligência-emocional">
-          <div class="logo">
-            <img src="./src/imagens/soft-skills/emocional.png" alt="Inteligência emocional">
-          </div>
-          <h3>Inteligência emocional</h3>
-         
-        </div>
-
-        <div class="informacoes Ética">
-          <div class="logo">
-            <img src="./src/imagens/soft-skills/etica.png" alt="ética">
-          </div>
-          <h3>Ética</h3>
-          
-        </div>
-
-        <div class="informacoes Criatividade">
-          <div class="logo">
-            <img src="./src/imagens/soft-skills/criatividade.png" alt="Criatividade" >
-          </div>
-          <h3>Criatividade</h3>
-          
-        </div>
-
-        <div class="informacoes Pensamento-critico">
-          <div class="logo">
-            <img src="./src/imagens/soft-skills/analise.png" alt="Pensamento-critico">
-            
-          </div>
-          <h3>Pensamento crítico</h3>
-          
-        </div>
-
-        <div class="informacoes Flexibilidade">
-          <div class="logo">
-            <img src="./src/imagens/soft-skills/flexibilidade.png" alt="Flexibilidade">
-           
-          </div>
-          <h3>Flexibilidade</h3>
-          
-        </div>
-
-        <div class="informacoes Orientação-para-resultados">
-          <div class="logo">
-            <img src="./src/imagens/soft-skills/resultados.png" alt="Orientação-para-resultados">
-          </div>
-          <h3>Orientação para resultados</h3>
-         
-        </div>
-
-        <div class="informacoes Trabalhar-sob-pressão">
-          <div class="logo">
-            <img src="./src/imagens/soft-skills/comunicação.png" alt="Trabalhar-sob-pressão">
-          </div>
-          <h3>Trabalhar sob pressão</h3>
-          
-        </div>
-
-       
-
-
-
-      </div>
-    </div>
-  </section>
-
-  <section class="habilidades section" id="habilidades">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Habilidades</h2>
-        </div>
-      </div>
-
-      <div class="container-habilidades">
-        <div class="informacoes javascript">
-          <div class="logo">
-            <i class="devicon devicon-javascript-plain" id="javascript"></i>
-          </div>
-          <h3>JavaScript</h3>
-          <p>Aprendi a criar aplicações web dinâmicas e interativas utilizando JavaScript, além de manipular e utilizar bibliotecas e frameworks para otimizar o desenvolvimento de projetos</p>
-        </div>
-
-        <div class="informacoes html">
-          <div class="logo">
-            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
-          </div>
-          <h3>HTML5</h3>
-          <p>Aprendi a utilizar HTML5 para criar páginas web dinâmicas e responsivas, melhorando a experiência do usuário e garantindo a compatibilidade com diferentes dispositivos e navegadores.!</p>
-        </div>
-
-        <div class="informacoes css">
-          <div class="logo">
-            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
-          </div>
-          <h3>CSS3</h3>
-          <p>"Aprendi a utilizar o CSS para criar layouts responsivos e aprimorar a aparência e usabilidade de páginas da web, utilizando técnicas avançadas de estilização e animação."</p>
-        </div>
-
-        <div class="informacoes github">
-          <div class="logo">
-            <i class="devicon devicon-github-original" id="github"></i>
-          </div>
-          <h3>GitHub</h3>
-          <p>Aprendi a colaborar de forma eficiente em projetos de desenvolvimento de software, gerenciar versões de código, resolver e trabalhar em equipe de forma remota, tudo isso através do uso do GitHub.!</p>
-        </div>
-
-        <div class="informacoes git">
-          <div class="logo">
-            <i class="devicon devicon-git-plain" id="git"></i>
-          </div>
-          <h3>Git</h3>
-          <p>Adquiri habilidades em criar e gerenciar repositórios, realizar commits, branches, Também aprendi a utilizar plataformas de hospedagem de repositórios como GitHub.!</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="projetos section" id="projetos">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Meus projetos</h2>
-        </div>
-      </div>
-
-      <div class="container-projetos">
-
-        <div class="projeto">        
+        <div class="container-projetos">
+          <div class="projeto">
             <h3>8º Projeto</h3>
             <img src="./src/imagens/huddle.gif" alt="huddle" />
-            <div class="informacoes-projeto">  
+            <div class="informacoes-projeto">
               <h4>➡️Descrição do projeto</h4>
-              <p>Uma Lading page do Frontend Mentor.</p><br>
+              <p>Uma Lading page do Frontend Mentor.</p>
+              <br />
               <h4>➡️Técnicas Usadas</h4>
               <p>Projeto feito usando HTML e CSS</p>
-              <br>
+              <br />
               <h4>➡️Links</h4>
-              <a href="https://github.com/alexandre020285/Huddle-landing-page" target="_blank">🔗GitHub Pages</a><br>
-              <a href="https://alexandre020285.github.io/Huddle-landing-page/" target="_blank">🔗View deployment</a>
-            </div>     
+              <a
+                href="https://github.com/alexandre020285/Huddle-landing-page"
+                target="_blank"
+                >🔗GitHub Pages</a
+              ><br />
+              <a
+                href="https://alexandre020285.github.io/Huddle-landing-page/"
+                target="_blank"
+                >🔗View deployment</a
+              >
+            </div>
+          </div>
+
+          <div class="projeto">
+            <h3>7º Projeto</h3>
+            <img src="./src/imagens/agência.gif" alt="huddle" />
+            <div class="informacoes-projeto">
+              <h4>➡️Descrição do projeto</h4>
+              <p>estrutura inicial de uma Landing Page de agência.</p>
+              <br />
+              <h4>➡️Técnicas Usadas</h4>
+              <p>Projeto feito usando HTML e CSS</p>
+              <br />
+              <h4>➡️Links</h4>
+              <a
+                href="https://github.com/alexandre020285/Landing-page-de-agencia"
+                target="_blank"
+                >🔗GitHub Pages</a
+              ><br />
+              <a
+                href="https://alexandre020285.github.io/Landing-page-de-agencia/"
+                target="_blank"
+                >🔗View deployment</a
+              >
+            </div>
+          </div>
+
+          <div class="projeto">
+            <h3>6º Projeto</h3>
+            <img src="./src/imagens/NFT.gif" alt="huddle" />
+            <div class="informacoes-projeto">
+              <h4>➡️Descrição do projeto</h4>
+              <p>Componente do cartão de visualização NFT</p>
+              <br />
+              <h4>➡️Técnicas Usadas</h4>
+              <p>Projeto feito usando HTML e CSS</p>
+              <br />
+              <h4>➡️Links</h4>
+              <a
+                href="https://github.com/alexandre020285/Projeto-cartao-NFT"
+                target="_blank"
+                >🔗GitHub Pages</a
+              ><br />
+              <a
+                href="https://alexandre020285.github.io/Projeto-cartao-NFT/"
+                target="_blank"
+                >🔗View deployment</a
+              >
+            </div>
+          </div>
+
+          <div class="projeto">
+            <h3>5º Projeto</h3>
+            <img src="./src/imagens/youtube.gif" alt="huddle" />
+            <div class="informacoes-projeto">
+              <h4>➡️Descrição do projeto</h4>
+              <p>um site fortemente parecido com o youtube.</p>
+              <br />
+              <h4>➡️Técnicas Usadas</h4>
+              <p>Projeto feito usando JAVASCRIPT, HTML e CSS</p>
+              <br />
+              <h4>➡️Links</h4>
+              <a
+                href="https://github.com/alexandre020285/Projeto-youtube"
+                target="_blank"
+                >🔗GitHub Pages</a
+              ><br />
+              <a
+                href="https://alexandre020285.github.io/Projeto-youtube/"
+                target="_blank"
+                >🔗View deployment</a
+              >
+            </div>
+          </div>
+
+          <div class="projeto">
+            <h3>4º Projeto</h3>
+            <img src="./src/imagens/padaria.gif" alt="huddle" />
+            <div class="informacoes-projeto">
+              <h4>➡️Descrição do projeto</h4>
+              <p>Site de uma padaria com pequena vitrini de produtos.</p>
+              <br />
+              <h4>➡️Técnicas Usadas</h4>
+              <p>Projeto feito usando JAVASCRIPT, HTML e CSS</p>
+              <br />
+              <h4>➡️Links</h4>
+              <a
+                href="https://github.com/alexandre020285/Projeto-Padaria-Sabor"
+                target="_blank"
+                >🔗GitHub Pages</a
+              ><br />
+              <a
+                href="https://alexandre020285.github.io/Projeto-Padaria-Sabor/"
+                target="_blank"
+                >🔗View deployment</a
+              >
+            </div>
+          </div>
+
+          <div class="projeto">
+            <h3>3º Projeto</h3>
+            <img src="./src/imagens/tenis.gif" alt="huddle" />
+            <div class="informacoes-projeto">
+              <h4>➡️Descrição do projeto</h4>
+              <p>Um site de compras online.</p>
+              <br />
+              <h4>➡️Técnicas Usadas</h4>
+              <p>Projeto feito usando HTML e CSS</p>
+              <br />
+              <h4>➡️Links</h4>
+              <a
+                href="https://github.com/alexandre020285/Projeto-galeria-dos-Tenis"
+                target="_blank"
+                >🔗GitHub Pages</a
+              ><br />
+              <a
+                href="https://alexandre020285.github.io/Projeto-galeria-dos-Tenis/"
+                target="_blank"
+                >🔗View deployment</a
+              >
+            </div>
+          </div>
+
+          <div class="projeto">
+            <h3>2º Projeto</h3>
+            <img src="./src/imagens/simpsons.gif" alt="huddle" />
+            <div class="informacoes-projeto">
+              <h4>➡️Descrição do projeto</h4>
+              <p>Site com descrição dos personagens do desenho.</p>
+              <br />
+              <h4>➡️Técnicas Usadas</h4>
+              <p>Projeto feito usando JAVASCRIPT, HTML e CSS</p>
+              <br />
+              <h4>➡️Links</h4>
+              <a
+                href="https://github.com/alexandre020285/Projeto-os-simpsons"
+                target="_blank"
+                >🔗GitHub Pages</a
+              ><br />
+              <a
+                href="https://alexandre020285.github.io/Projeto-os-simpsons/"
+                target="_blank"
+                >🔗View deployment</a
+              >
+            </div>
+          </div>
+
+          <div class="projeto">
+            <h3>1º Projeto</h3>
+            <img src="./src/imagens/one-piece.gif" alt="huddle" />
+            <div class="informacoes-projeto">
+              <h4>➡️Descrição do projeto</h4>
+              <p>Site com descrição dos personagens do anime.</p>
+              <br />
+              <h4>➡️Técnicas Usadas</h4>
+              <p>Projeto feito usando JAVASCRIPT, HTML e CSS</p>
+              <br />
+              <h4>➡️Links</h4>
+              <a
+                href="https://github.com/alexandre020285/Projeto-one-piece"
+                target="_blank"
+                >🔗GitHub Pages</a
+              ><br />
+              <a
+                href="https://alexandre020285.github.io/Projeto-one-piece/"
+                target="_blank"
+                >🔗View deployment</a
+              >
+            </div>
+          </div>
         </div>
-
-        
-          <div class="projeto">        
-              <h3>7º Projeto</h3>
-              <img src="./src/imagens/agência.gif" alt="huddle" />
-              <div class="informacoes-projeto">  
-                <h4>➡️Descrição do projeto</h4>
-                <p>estrutura inicial de uma Landing Page de agência.</p><br>
-                <h4>➡️Técnicas Usadas</h4>
-                <p>Projeto feito usando HTML e CSS</p>
-                <br>
-                <h4>➡️Links</h4>
-                <a href="https://github.com/alexandre020285/Landing-page-de-agencia" target="_blank">🔗GitHub Pages</a><br>
-                <a href="https://alexandre020285.github.io/Landing-page-de-agencia/" target="_blank">🔗View deployment</a>
-              </div>     
-          </div>
-
-          <div class="projeto">        
-            
-              <h3>6º Projeto</h3>
-              <img src="./src/imagens/NFT.gif" alt="huddle" />
-              <div class="informacoes-projeto">  
-                <h4>➡️Descrição do projeto</h4>
-                <p>Componente do cartão de visualização NFT</p><br>
-                <h4>➡️Técnicas Usadas</h4>
-                <p>Projeto feito usando HTML e CSS</p>
-                <br>
-                <h4>➡️Links</h4>
-                <a href="https://github.com/alexandre020285/Projeto-cartao-NFT" target="_blank">🔗GitHub Pages</a><br>
-                <a href="https://alexandre020285.github.io/Projeto-cartao-NFT/" target="_blank" >🔗View deployment</a>
-              </div>     
-            
-          </div>
-
-          <div class="projeto">        
-            
-              <h3>5º Projeto</h3>
-              <img src="./src/imagens/youtube.gif" alt="huddle" />
-              <div class="informacoes-projeto">  
-                <h4>➡️Descrição do projeto</h4>
-                <p>um site fortemente parecido com o youtube.</p><br>
-                <h4>➡️Técnicas Usadas</h4>
-                <p>Projeto feito usando JAVASCRIPT, HTML e CSS</p>
-                <br>
-                <h4>➡️Links</h4>
-                <a href="https://github.com/alexandre020285/Projeto-youtube" target="_blank">🔗GitHub Pages</a><br>
-                <a href="https://alexandre020285.github.io/Projeto-youtube/" target="_blank">🔗View deployment</a>
-              </div>     
-            
-          </div>
-
-          <div class="projeto">        
-              <h3>4º Projeto</h3>
-              <img src="./src/imagens/padaria.gif" alt="huddle" />
-              <div class="informacoes-projeto">  
-                <h4>➡️Descrição do projeto</h4>
-                <p>Site de uma padaria com pequena vitrini de produtos.</p><br>
-                <h4>➡️Técnicas Usadas</h4>
-                <p>Projeto feito usando JAVASCRIPT, HTML e CSS</p>
-                <br>
-                <h4>➡️Links</h4>
-                <a href="https://github.com/alexandre020285/Projeto-Padaria-Sabor" target="_blank">🔗GitHub Pages</a><br>
-                <a href="https://alexandre020285.github.io/Projeto-Padaria-Sabor/" target="_blank">🔗View deployment</a>
-              </div>     
-          </div>
-
-          <div class="projeto">        
-              <h3>3º Projeto</h3>
-              <img src="./src/imagens/tenis.gif" alt="huddle" />
-              <div class="informacoes-projeto">  
-                <h4>➡️Descrição do projeto</h4>
-                <p>Um site de compras online.</p><br>
-                <h4>➡️Técnicas Usadas</h4>
-                <p>Projeto feito usando HTML e CSS</p>
-                <br>
-                <h4>➡️Links</h4>
-                <a href="https://github.com/alexandre020285/Projeto-galeria-dos-Tenis" target="_blank">🔗GitHub Pages</a><br>
-                <a href="https://alexandre020285.github.io/Projeto-galeria-dos-Tenis/" target="_blank">🔗View deployment</a>
-              </div>     
-          </div>
-
-          <div class="projeto">        
-              <h3>2º Projeto</h3>
-              <img src="./src/imagens/simpsons.gif" alt="huddle" />
-              <div class="informacoes-projeto">  
-                <h4>➡️Descrição do projeto</h4>
-                <p>Site com descrição dos personagens do desenho.</p><br>
-                <h4>➡️Técnicas Usadas</h4>
-                <p>Projeto feito usando JAVASCRIPT, HTML e CSS</p>
-                <br>
-                <h4>➡️Links</h4>
-                <a href="https://github.com/alexandre020285/Projeto-os-simpsons" target="_blank">🔗GitHub Pages</a><br>
-                <a href="https://alexandre020285.github.io/Projeto-os-simpsons/" target="_blank">🔗View deployment</a>
-              </div>     
-          </div>
-
-          <div class="projeto">        
-              <h3>11111º Projeto</h3>
-              <img src="./src/imagens/one-piece.gif" alt="huddle" />
-              <div class="informacoes-projeto">  
-                <h4>➡️Descrição do projeto</h4>
-                <p>Site com descrição dos personagens do anime.</p><br>
-                <h4>➡️Técnicas Usadas</h4>
-                <p>Projeto feito usando JAVASCRIPT, HTML e CSS</p>
-                <br>
-                <h4>➡️Links</h4>
-                <a href="https://github.com/alexandre020285/Projeto-one-piece" target="_blank">🔗GitHub Pages</a><br>
-                <a href="https://alexandre020285.github.io/Projeto-one-piece/" target="_blank">🔗View deployment</a>
-              </div>     
-          </div>
-
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="footer">
-    <div class="container">
-      <h2>NÃO PERCA TEMPO, ENTRE JÁ EM CONTATO COMIGO!</h2>
-      <div class="redes-sociais">
-        <a href="https://www.linkedin.com/in/alexandre-alves-6657b1b3/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://github.com/alexandre020285" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
-
+    <footer class="footer">
+      <div class="container">
+        <h2>NÃO PERCA TEMPO, ENTRE JÁ EM CONTATO COMIGO!</h2>
+        <div class="redes-sociais">
+          <a
+            href="https://www.linkedin.com/in/alexandre-alves-6657b1b3/"
+            target="_blank"
+            class="outer-shadow"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+          <a
+            href="https://github.com/alexandre020285"
+            target="_blank"
+            class="outer-shadow"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
