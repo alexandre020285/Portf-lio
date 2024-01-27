@@ -115,7 +115,7 @@
         display: block; 
     }
 
-    /* pega todos os itens que após o input e que sao irmaos dele */
+    
     .header nav input:checked ~ ul {
         display: block;
     }

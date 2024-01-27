@@ -9,7 +9,6 @@
 
 .home .texto-home, .home .img-home {
     flex: 0 0 50%;
-    /* ocupa 50% do tamanho e não faz grow nem shrink */
     max-width: 50%;
     padding: 0 15px;
 }

@@ -21,9 +21,6 @@
 .habilidades .container-habilidades .informacoes h3,
 .habilidades .container-habilidades .informacoes .logo i{
     transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    -webkit-transition: all .3s ease;
 }
 
 .habilidades .container-habilidades .informacoes:hover p,

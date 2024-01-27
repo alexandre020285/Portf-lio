@@ -9,15 +9,11 @@
   text-align: center;
   flex-wrap: wrap;
   justify-content: center; 
-  
 }
 
 .soft-skills .container .informacoes {
-  /* background-color: yellow; */
   margin: 10px;
-  max-width: 170px;
-  /* gap: 20px; */
-  
+  max-width: 140px;
 }
 
 .soft-skills .container .informacoes h3 {
@@ -25,11 +21,16 @@
   font-size: 1.8rem;
     font-family: var(--fonte-secundaria);
     transition: all .3s ease;
-  
-
 }
 
 .soft-skills .container .informacoes:hover h3 {
   color: var(--cor-primaria);
 
 }
+
+@media(max-width: 1280px) { 
+  .soft-skills .container .informacoes {
+    margin: 10px;
+    max-width: 100px;
+  }
+  }
