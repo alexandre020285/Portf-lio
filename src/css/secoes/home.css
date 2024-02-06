@@ -29,6 +29,7 @@
     max-width: 450px;
     margin: auto;
     border-radius: 50%;
+
 }
 
 .home .img-home .img-box img {
@@ -36,6 +37,11 @@
     border-radius: 50%;
     border: 10px solid transparent;
 }
+
+/* .imagem-sobre-mim{
+   background-color: yellow;
+   content: url();
+} */
 
 .home .texto-home p {
     font-family: var(--fonte-secundaria);
