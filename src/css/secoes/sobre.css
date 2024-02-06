@@ -15,7 +15,7 @@
 
 @-webkit-keyframes down {
     0% {-webkit-transform:translateY(0);}
-    100% {-webkit-transform:translateY(0.4em) ;}
+    100% {-webkit-transform:translateY(0.9rem) ;}
 }
 
 .sobre-mim .imagem-sobre-mim .img-box {
@@ -69,5 +69,14 @@
 @media(max-width:768px){
     .sobre-mim .informacoes-sobre-mim {  
         max-width: 100%;                   
+    }
+}
+
+@media(max-width:450px){
+
+    .sobre-mim .imagem-sobre-mim img.flutuar{
+        
+        left: 5px;
+        top: 60px;
     }
 }
