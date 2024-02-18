@@ -1,8 +1,13 @@
+
 .container .soft-skills .logo{
   background-color:  white;
   border-radius: 50%;
   padding: 20px;
 }
+.container .soft-skills .logo:hover{
+  scale: 1.2;
+}
+
 
 .soft-skills .container .soft-skills{
   display: flex;

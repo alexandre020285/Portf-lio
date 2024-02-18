@@ -1,0 +1,16 @@
+.animation {
+    opacity: 0;
+    /* filter: blur(15px);  */
+    transform: translatex(-100%);
+    transition: all 1.5s;
+    
+}
+
+.mostrar {
+    opacity: 1;
+    /* filter: blur(15px);  */
+    transition: all 1.5s;
+    transform: translatex(0);
+    
+}
+
