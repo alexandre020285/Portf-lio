@@ -5,13 +5,12 @@
     justify-content: center;    
     flex-direction: row;
     flex-wrap: wrap;
-    /* background-color: yellow; */
-
 }
 
 .habilidades .container-habilidades .informacoes{
-    max-width: 350px;
-    padding: 40px 20px; 
+    max-width: 280px;
+    height: 340px;
+    padding: 20px 10px; 
     border: 1px solid white;  
     border-radius: 60px;
     margin: 10px;
