@@ -1,38 +1,65 @@
 /* HABILIDADES */
-.habilidades .container-habilidades {    
-    text-align: center;    
+.habilidades .container-habilidades {
+    text-align: center;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.habilidades .container-habilidades .informacoes{
+.habilidades .container-habilidades .informacoes {
     max-width: 280px;
     height: 340px;
-    padding: 20px 10px; 
-    border: 1px solid white;  
+    padding: 20px 10px;
+    border: 1px solid white;
     border-radius: 60px;
     margin: 10px;
 }
 
 .habilidades .container-habilidades .informacoes p,
 .habilidades .container-habilidades .informacoes h3,
-.habilidades .container-habilidades .informacoes .logo i{
+.habilidades .container-habilidades .informacoes .logo i {
     transition: all .3s ease;
 }
 
 .habilidades .container-habilidades .informacoes:hover p,
 .habilidades .container-habilidades .informacoes:hover h3,
-.habilidades .container-habilidades .informacoes:hover .logo i{
+.habilidades .container-habilidades .informacoes:hover .logo i {
     color: var(--cor-primaria);
+}
+
+.habilidades .container-habilidades .informacoes .logo:hover {
+    scale: 1.2;
+    animation: rotate 1s ease-in-out;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    75% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 .habilidades .container-habilidades .informacoes h3 {
     font-size: var(--fonte-extra-grande);
     font-weight: 500;
     margin-bottom: 20px;
-    color: var(--cor-primaria);      
+    color: var(--cor-primaria);
 }
 
 .habilidades .container-habilidades .informacoes p {
